@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  canvas {
+    display: block;
+    position: absolute;
+    width: 100%;
+  
+    /*top: calc(50% - 200px);  /* half of canvas height */
+  }
+  
+  
+  h1 {
+  color: purple;
+ 
+    text-align:center ;
+    vertical-align: middle;
+
+
+  background-color:hotpink;
+  }
+
+p{
+color:lightcoral;
+text-align: center;
+
+
+}
+
+  body{
+    background-color: lightpink;
+  }
+  
+  .headerMain {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+    transform: translate(-12.5%, -50%);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+	padding: 2vmax;
+	z-index: 1;
+}
