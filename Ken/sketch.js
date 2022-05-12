@@ -51,23 +51,23 @@ function setup() {
   imgJapan[1].resize(100,100);
 
   button1 = createButton('Thailand');
-  button1.position(50, 50);
+  button1.position(50, 130);
   button1.mousePressed(change1);
 
   button2 = createButton('China');
-  button2.position(50, 80);
+  button2.position(50, 160);
   button2.mousePressed(change2);
 
   button3 = createButton('Japan');
-  button3.position(50, 110);
+  button3.position(50, 190);
   button3.mousePressed(change3);
 
   button4 = createButton('Italy');
-  button4.position(50, 140);
+  button4.position(50, 220);
   button4.mousePressed(change4);
 
   button5 = createButton('Korea');
-  button5.position(50, 170);
+  button5.position(50, 250);
   button5.mousePressed(change5);
 
   selCol = color("#606060")
@@ -172,7 +172,7 @@ function change5(){
     selImg = imgKorea[randSel];
     foodArray.push(new Food(width/2, height/2, random(255), random(2,30), selImg));
   }
-
+  
 thaiSel = 0
 italySel = 0;
 chinaSel = 0;
