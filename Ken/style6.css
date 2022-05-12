@@ -25,6 +25,10 @@ html, body {
 p{
 color:lightcoral;
 text-align: center;
+width: auto;
+border: 10px solid green;
+padding: 25px;
+
 
 
 }
