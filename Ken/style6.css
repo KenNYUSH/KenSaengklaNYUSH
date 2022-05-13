@@ -22,6 +22,15 @@ html, body {
   background-color:lightsalmon;
   }
 
+ h2 {
+  color:darkmagenta;
+ 
+    text-align:center ;
+    vertical-align: middle;
+
+
+  background-color:lightsalmon;
+  }
 p{
 color:lightcoral;
 text-align: center;
@@ -94,7 +103,7 @@ padding: 24px;
  .cssbuttons-io-button .icon svg {
   width: 1.1em;
   transition: transform 0.3s;
-  color: #7b52b9;
+  color: wheat;
  }
  
  .cssbuttons-io-button:hover .icon svg {
